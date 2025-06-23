@@ -1,6 +1,6 @@
 #product-overview {
   background: linear-gradient(to top, #d62828, transparent 50%),
-    url("images/freedom.jpg") no-repeat center/cover content-box, #d62828;
+    url("images/freedom.png") no-repeat center/cover content-box, #d62828;
   /* background-image: linear-gradient(62deg, #8ec5fc, #e0c3fc); */
   /* background-image: radial-gradient(ellipse at 20% 80%, red, blue); */
   height: 33vh;
