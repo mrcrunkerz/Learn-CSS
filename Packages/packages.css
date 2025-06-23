@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "AnonymousPro";
+  src: url(../Fonts/AnonymousPro-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "AnonymousPro";
+  src: url(../Fonts/AnonymousPro-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+main {
+  padding-top: 2rem;
+}
+
+.background {
+  background: url("../images/package_bg.jpg") center/cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.package {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.package:hover,
+.package:active {
+  box-shadow: 6px 6px black;
+  /* border: 2px solid black; */
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 2rem;
+}
+
+.plan__badge {
+  position: absolute;
+  font-size: 0.8rem;
+  top: 0px;
+  right: 0.8rem;
+  background-color: #d62828;
+  color: white;
+  padding: 0.6rem 1.25rem;
+  border-radius: 4px;
+}
+
+.package__info {
+  padding: 1rem;
+  background-color: white;
+  font: 700 1.25rem "AnonymousPro", monospace;
+  /* font: style variant weight size/line-height family ; */
+}
+
+#plus {
+  background-color: #ffd88a;
+  position: relative;
+}
+
+#free {
+  background-color: #fff1d5;
+  float: right;
+  margin-bottom: 2rem;
+}
+
+#premium {
+  background-color: #fcbf49;
+  clear: both;
+}
+
+#premium .package__title {
+  color: #d62828;
+}
+
+@media (min-width: 40rem) {
+  main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 94rem;
+  }
+}
