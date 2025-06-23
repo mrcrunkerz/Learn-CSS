@@ -1,0 +1,14 @@
+black:
+#D03049
+
+Red:
+#D62828
+
+Orange:
+#F77F0D
+      
+Yellow:
+#FCBF49
+
+White:
+#EAB2E7
