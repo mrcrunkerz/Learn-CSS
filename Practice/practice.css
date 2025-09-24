@@ -6,11 +6,12 @@ body {
 
 .flex-container {
   background: #ddd;
-  height: 1000px;
+  /* height: 1000px; */
   padding: 10px;
-
-  display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   flex-wrap: wrap;
 }
 
