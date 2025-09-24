@@ -1,0 +1,195 @@
+#product-overview {
+  background: linear-gradient(to top, #d62828, transparent 50%),
+    url("images/freedom.png") no-repeat center/cover content-box, #d62828;
+  /* background-image: linear-gradient(62deg, #8ec5fc, #e0c3fc); */
+  /* background-image: radial-gradient(ellipse at 20% 80%, red, blue); */
+  height: 33vh;
+  position: relative;
+}
+
+/* testing */
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+@media (min-width: 40rem) {
+  #product-overview {
+    height: 40vh;
+  }
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
+.section-title {
+  margin: 1.25rem 0;
+  text-align: center;
+  color: #d62828;
+}
+
+.plan {
+  /* display: block; */
+  width: 100%;
+  text-align: center;
+  background-color: #d628284a;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  /* vertical-align: middle; */
+}
+
+.plan--highlighted {
+  background-color: #d62828;
+  color: white;
+  border: 6px solid black;
+  /* box-shadow: 6px 6px black; */
+}
+
+.plan-title__highlighted {
+  background-color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 6px solid black;
+  box-shadow: 6px 6px black;
+  color: #d62828;
+  padding: 0.5rem;
+}
+
+.plan-title {
+  margin: 0.6rem 0;
+}
+
+.plan-price {
+  margin: 0.6rem 0;
+}
+
+.plan-features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan-feature {
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 40rem) {
+  .plan__lists {
+    text-align: center;
+    margin: auto;
+  }
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+  .plan--highlighted {
+    box-shadow: 6px 6px black;
+  }
+}
+
+#key-features {
+  background-color: #f77f0d;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+#key-features .section-title {
+  color: white;
+  margin: 2rem;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  /* display: inline-block; */
+  /* width: 30%; */
+  text-align: center;
+  /* vertical-align: top; */
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.key-feature__image {
+  background-color: #ffdbba;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.key-feature__image img {
+  height: 80%;
+  padding-top: 20px;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    max-width: 25rem;
+  }
+}
+
+/* Modal */
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  background: white;
+  padding: 1rem;
+  box-shadow: 6px 6px black;
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: none;
+  background: green;
+  text-decoration: none;
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.modal__action:hover,
+.modal__action:active {
+  background: rgb(36, 255, 36);
+}
+
+.modal__action--negative {
+  background-color: #d62828;
+}
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #ff6c6c;
+}
