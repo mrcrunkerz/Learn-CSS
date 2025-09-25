@@ -6,13 +6,15 @@ body {
 
 .flex-container {
   background: #ddd;
-  /* height: 1000px; */
+  height: 1000px;
   padding: 10px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+
+  /* flex-flow: row wrap; */
 }
 
 .box {
@@ -38,6 +40,7 @@ body {
   background: #2ecc71;
   width: 120px;
   height: 300px;
+  font-size: 32px;
 }
 .box4 {
   background: #f1c40f;
@@ -46,6 +49,7 @@ body {
 .box5 {
   background: #9b59b6;
   width: 140px;
+  font-size: 48px;
 }
 .box6 {
   background: #34495e;
