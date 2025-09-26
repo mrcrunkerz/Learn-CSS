@@ -6,14 +6,13 @@ body {
 
 .flex-container {
   background: #ddd;
-  height: 1000px;
+  /* height: 1000px; */
   padding: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: baseline;
   justify-content: center;
-
+  align-items: center;
   /* flex-flow: row wrap; */
 }
 
@@ -34,24 +33,21 @@ body {
 
 .box2 {
   background: #3498db;
-  height: 150px;
+  height: 100px;
 }
 .box3 {
   background: #2ecc71;
-  width: 120px;
-  height: 300px;
-  font-size: 32px;
+  width: 100px;
 }
 .box4 {
   background: #f1c40f;
-  width: 180px;
+  width: 100px;
 }
 .box5 {
   background: #9b59b6;
-  width: 140px;
-  font-size: 48px;
+  width: 100px;
 }
 .box6 {
   background: #34495e;
-  width: 160px;
+  width: 100px;
 }
