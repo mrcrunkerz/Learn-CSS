@@ -62,6 +62,9 @@ main {
   width: 100%;
   background-color: #d62828;
   padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .toggle-button {
@@ -85,17 +88,10 @@ main {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.4rem;
-  height: 2.5rem;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .main-heading__brand img {
-  height: 100%;
-}
-
-.main-heading > div {
-  display: inline-block;
+  height: 2.5rem;
   vertical-align: middle;
 }
 
@@ -105,10 +101,11 @@ main {
 
 .main-nav__items {
   margin: 0;
+  list-style: none;
+  display: flex;
 }
 
 .main-nav__item {
-  display: inline-block;
   margin: 0 1rem;
 }
 .main-nav__item a {
@@ -139,10 +136,7 @@ main {
     display: none;
   }
   .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 60px);
-    vertical-align: middle;
+    display: flex;
   }
 }
 
