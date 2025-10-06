@@ -9,7 +9,7 @@ body {
   height: 800px;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -39,14 +39,17 @@ body {
 .box3 {
   background: #2ecc71;
   width: 60px;
+  order: -1;
 }
 .box4 {
   background: #f1c40f;
   width: 60px;
+  order: 1;
 }
 .box5 {
   background: #9b59b6;
   width: 60px;
+  order: -2;
 }
 .box6 {
   background: #34495e;
