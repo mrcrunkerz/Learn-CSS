@@ -30,6 +30,7 @@ body {
 .box1 {
   background: #e74c3c;
   width: 60px;
+  width: 500px;
 }
 
 .box2 {
@@ -39,17 +40,16 @@ body {
 .box3 {
   background: #2ecc71;
   width: 60px;
-  order: -1;
+  align-self: flex-start;
 }
 .box4 {
   background: #f1c40f;
   width: 60px;
-  order: 1;
 }
 .box5 {
   background: #9b59b6;
   width: 60px;
-  order: -2;
+  align-self: flex-end;
 }
 .box6 {
   background: #34495e;
