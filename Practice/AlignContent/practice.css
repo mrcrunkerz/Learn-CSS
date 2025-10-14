@@ -9,8 +9,8 @@ body {
   height: 800px;
   padding: 10px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -29,29 +29,27 @@ body {
 
 .box1 {
   background: #e74c3c;
-  width: 60px;
-  width: 500px;
+  width: 150px;
 }
-
 .box2 {
   background: #3498db;
-  width: 60px;
+  width: 150px;
 }
 .box3 {
   background: #2ecc71;
-  width: 60px;
-  align-self: flex-start;
+  width: 150px;
 }
 .box4 {
   background: #f1c40f;
-  width: 60px;
+  width: 150px;
 }
 .box5 {
   background: #9b59b6;
-  width: 60px;
-  align-self: flex-end;
+  width: 150px;
+  flex-shrink: 2;
 }
 .box6 {
   background: #34495e;
-  width: 60px;
+  width: 150px;
+  flex-shrink: 4;
 }
