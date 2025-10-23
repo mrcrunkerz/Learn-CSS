@@ -1,0 +1,18 @@
+.grid__container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 200px 2fr 20% 1fr;
+  grid-template-rows: 5rem 2.5rem 3rem;
+}
+.grid-1 {
+  background-color: #ee8434;
+}
+.grid-2 {
+  background-color: #c95d63;
+}
+.grid-3 {
+  background-color: #ae8799;
+}
+.grid-4 {
+  background-color: #717ec3;
+}
